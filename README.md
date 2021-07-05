@@ -18,13 +18,13 @@ lxml 4.6.3
 
 # Use Web App 
 
-1, Selecting the "Scrape New Data" button will obtain the latest news, images, and facts about Mars.
+1. Selecting the "Scrape New Data" button will obtain the latest news, images, and facts about Mars
 2. News titles and summaries are extracted from NASA Mars Exploration Program News. 
-3. The featured images are extracted from the Jet Propulsion Laboratory's Space Images. 
+3. The featured images are extracted from the Jet Propulsion Laboratory's Space Images. 4
 4. Mars hemisphere images are extracted from Astropedia. 
 5. Finally, the Mars facts are gathered from Galaxy Facts. 
 
-* (The scraping code used in this project is scraping.py.) *
+*(The scraping code used in this project is scraping.py.)*
 
 **After running app.py, the extracted data is successfully stored in MongoDB. A mars_app database must exist in mongo for the code to properly run.**
 
